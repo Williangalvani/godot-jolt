@@ -71,7 +71,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        arch: [x64, x86]
+        arch: [x64, x86, arm32, arm64]
 
     name: Build (linux-${{ matrix.arch }})
 
